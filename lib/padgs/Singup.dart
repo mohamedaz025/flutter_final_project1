@@ -148,13 +148,13 @@ class Singup extends StatelessWidget {
                       
                     },
                     child: Container(
-                      padding: EdgeInsets.all(5),
+                      padding: EdgeInsets.all(4),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(100),
-                        border: Border.all(color: Colors.blue, width: 5),  
+                        border: Border.all(color: Colors.purple, width: 5),  
                       ),
                       child: SvgPicture.asset("assets/icons/google-plus.svg",
-                       width: 50,height: 50,color: Colors.blue,),
+                       width: 40,height: 40,color: Colors.purple,),
                     ),
                   ),
                    SizedBox(width:10),
@@ -163,13 +163,13 @@ class Singup extends StatelessWidget {
                       
                     },
                     child: Container(
-                      padding: EdgeInsets.all(5),
+                      padding: EdgeInsets.all(4),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(100),
-                        border: Border.all(color: Colors.blue, width: 5),  
+                        border: Border.all(color: Colors.purple, width: 5),  
                       ),
                       child: SvgPicture.asset("assets/icons/twitter.svg",
-                       width: 50,height: 50,color: Colors.blue,),
+                       width: 40,height: 40,color: Colors.purple,),
                     ),
                   ),
                    SizedBox(width:10),
@@ -178,13 +178,13 @@ class Singup extends StatelessWidget {
                       
                     },
                     child: Container(
-                      padding: EdgeInsets.all(5),
+                      padding: EdgeInsets.all(4),
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(100),
-                        border: Border.all(color: Colors.blue, width: 5),  
+                        border: Border.all(color: Colors.purple, width: 5),  
                       ),
                       child: SvgPicture.asset("assets/icons/facebook.svg",
-                       width: 50,height: 50,color: Colors.blue,),
+                       width: 40,height: 40,color: Colors.purple,),
                     ),
                   ),
                 ],
