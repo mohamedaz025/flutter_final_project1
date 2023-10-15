@@ -10,7 +10,16 @@ class Singup extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-    
+        floatingActionButton: //  لعمل زر عائم
+          FloatingActionButton(
+        onPressed: () {
+          // Navigator.pushNamed(context, "/");   //   امر التوجه لصفحه وتترك الصفحع الحالية مفتوحة
+          Navigator.pop(context, "/");      //  امر التوجه لصفحه مع قفل الصفحة الحالية
+        },
+        child: Icon(Icons.home), // لاضافة ايكونة داخل الزر
+        backgroundColor: Colors.purple[400], // لتعير لون الزر
+      ),
+
         body: SizedBox(
           // color: Colors.blue,
           height: double.infinity,
